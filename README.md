@@ -10,22 +10,21 @@ This program is written in **Python 3** which aims to aim **display the prime nu
 * Asks the user their name (Line 10 - 16):
 
 `print('Welcome to Huzaifahs prime number program')`
+
 `Name = input('Enter your name:')`
-`#this is the welcome screen where the user will input their name.`
 
 `print('Hello' + ' ' + Name)`
-`#introduces the user`
+
 `input('Press enter to continue')`
 
 * Tells them the definition of a prime number (Line 18 - 20 ):
 
 `print('A  prime  number is a number that can only be divided by 1 or itself')`
-`#defintion of a prime number`
 
 * Asks them if they want to see a fun fact about prime numbers and then (Line 22 - 28 ):
 
 `print('Type Fact if you want to see a fun fact about prime numbers or press enter to continue')`
-`fact =input('>>')`
+`fact = input('>>')`
 `if fact=='Fact':`
     `print('Did you know that 1 is not a prime number. This makes 2 the smallest prime number')`
 `else:`
@@ -36,19 +35,19 @@ This program is written in **Python 3** which aims to aim **display the prime nu
 * Asks the user if they want to see the prime numbers from 1-100. If they say yes then it would display the prime numbers but if they say no the program will end (Line 30 - 66):
 
   `for num in range(2,100):`
-      `#This is a range for the prime numbers within a for loop`
+      `
    `if num > 1:`
-       `# the number  must be greater than 1, as 2 is the smallest prime number`
+    
        `for i in range(2,num):`
+       
            `if (num % i) == 0:`
+          
                `break`
-            `#terminates the for loop`
+        
        `else:`
+       
            `print(num)`
-           `#outputs the prime numbers`
-
-
-
+           
 ## How to run the prime number program
 
 For users who are new to visiting this repository, this is a step by step guide to running my program:
