@@ -3,7 +3,7 @@
 
 # Prime-Number-Program
 
-## Python3 program to display the prime numbers
+## Python 3 program to display the prime numbers
 
 This program is written in **Python 3** which aims to aim **display the prime numbers from 1-100**. In addition to this, there are some *extra features* such as:
 
