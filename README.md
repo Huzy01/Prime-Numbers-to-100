@@ -17,7 +17,7 @@ This program is written in **Python 3** which aims to aim **display the prime nu
 `#introduces the user`
 `input('Press enter to continue')`
 
-* Tells them the defintion of a prime number (Line 18 - 20 ):
+* Tells them the definition of a prime number (Line 18 - 20 ):
 
 `print('A  prime  number is a number that can only be divided by 1 or itself')`
 `#defintion of a prime number`
