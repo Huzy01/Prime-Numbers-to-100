@@ -28,8 +28,8 @@ Click on the link to download python3.8.3 https://www.python.org/downloads/
 
 3. Once downloaded and installed, go onto your desktop and click on IDLE(Python3.8 32-bit).
 
-4. Once open, click on the edit tab and open a blank file. Thereafter paste the code and save it (**save the file as     (WhateverNameYouWant .py**).
+4. Once open, click on the edit tab and open a blank file. Thereafter paste the code and save it (**save the file as     (WhateverNameYouWant .py).
 
 5. When you have saved the file, you can run the code by pressing F5 or clicking on the 'Run button' in the Run tab.
 
-**Any problems just email me on huzaifahhensrot@gmail.com **
+**Any problems just email me on huzaifahhensrot@gmail.com 
