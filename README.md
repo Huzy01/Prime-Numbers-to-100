@@ -24,11 +24,17 @@ This program is written in **Python 3** which aims to aim **display the prime nu
 * Asks them if they want to see a fun fact about prime numbers and then (Line 22 - 28 ):
 
 `print('Type Fact if you want to see a fun fact about prime numbers or press enter to continue')`
+
 `fact = input('>>')`
+
 `if fact=='Fact':`
+
     `print('Did you know that 1 is not a prime number. This makes 2 the smallest prime number')`
+    
 `else:`
+
     `print('Okay we will move on')`
+    
 `input('Press enter to continue')`
 
 
