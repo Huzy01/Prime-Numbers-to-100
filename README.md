@@ -9,13 +9,13 @@ This program is written in **Python 3** which aims to aim **display the prime nu
 
 * Asks the user their name (Line 10 - 16):
 
-`print('Welcome to Huzaifahs prime number program')
-Name = input('Enter your name:')
-#this is the welcome screen where the user will input their name.
+`print('Welcome to Huzaifahs prime number program')`
+`Name = input('Enter your name:')`
+`#this is the welcome screen where the user will input their name.`
 
-print('Hello' + ' ' + Name)
-#introduces the user
-input('Press enter to continue')`
+`print('Hello' + ' ' + Name)`
+`#introduces the user`
+`input('Press enter to continue')`
 
 * Tells them the defintion of a prime number (Line 18 - 20 ):
 
