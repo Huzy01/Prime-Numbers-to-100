@@ -25,9 +25,9 @@ This program is written in **Python 3** which aims to aim **display the prime nu
 
 `print('Type Fact if you want to see a fun fact about prime numbers or press enter to continue')
 
- fact = input('>>')`
-
-`if fact=='Fact':`
+ fact = input('>>')
+ 
+ if fact=='Fact':`
 
     `print('Did you know that 1 is not a prime number. This makes 2 the smallest prime number')`
     
