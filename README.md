@@ -9,33 +9,33 @@ This program is written in **Python 3** which aims to aim **display the prime nu
 
 * Asks the user their name (Line 10 - 16):
 
-print('Welcome to Huzaifahs prime number program')
+`print('Welcome to Huzaifahs prime number program')
 Name = input('Enter your name:')
 #this is the welcome screen where the user will input their name.
 
 print('Hello' + ' ' + Name)
 #introduces the user
-input('Press enter to continue')
+input('Press enter to continue')`
 
 * Tells them the defintion of a prime number (Line 18 - 20 ):
 
-print('A  prime  number is a number that can only be divided by 1 or itself')
-#defintion of a prime number
+`print('A  prime  number is a number that can only be divided by 1 or itself')
+#defintion of a prime number`
 
 * Asks them if they want to see a fun fact about prime numbers and then (Line 22 - 28 ):
 
-print('Type Fact if you want to see a fun fact about prime numbers or press enter to continue')
+`print('Type Fact if you want to see a fun fact about prime numbers or press enter to continue')
 fact =input('>>')
 if fact=='Fact':
     print('Did you know that 1 is not a prime number. This makes 2 the smallest prime number')
 else:
     print('Okay we will move on')
-input('Press enter to continue')
+input('Press enter to continue')`
 
 
 * Asks the user if they want to see the prime numbers from 1-100. If they say yes then it would display the prime bumbers but if they say no the program will end (Line 30 - 66):
 
-if responce == 'Y':
+`if responce == 'Y':
     #what this says is that if your answer to the above question is yes, then the prime number function will executed.
  print('Here:')
  
@@ -68,7 +68,7 @@ elif responce != 'Y' or 'N':
             #terminates the for loop
        else:
            print(num)
-           #outputs the prime numbers
+           #outputs the prime numbers`
 
 
 
