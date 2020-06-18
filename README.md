@@ -23,9 +23,9 @@ This program is written in **Python 3** which aims to aim **display the prime nu
 
 * Asks them if they want to see a fun fact about prime numbers and then (Line 22 - 28 ):
 
-`print('Type Fact if you want to see a fun fact about prime numbers or press enter to continue')`
+`print('Type Fact if you want to see a fun fact about prime numbers or press enter to continue')
 
-`fact = input('>>')`
+ fact = input('>>')`
 
 `if fact=='Fact':`
 
