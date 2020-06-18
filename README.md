@@ -33,7 +33,7 @@ This program is written in **Python 3** which aims to aim **display the prime nu
 `input('Press enter to continue')`
 
 
-* Asks the user if they want to see the prime numbers from 1-100. If they say yes then it would display the prime bumbers but if they say no the program will end (Line 30 - 66):
+* Asks the user if they want to see the prime numbers from 1-100. If they say yes then it would display the prime numbers but if they say no the program will end (Line 30 - 66):
 
   `for num in range(2,100):`
       `#This is a range for the prime numbers within a for loop`
