@@ -11,16 +11,16 @@ This program is written in **Python 3** which aims to aim **display the prime nu
 
 print('Welcome to Huzaifahs prime number program')
 Name = input('Enter your name:')
-# this is the welcome screen where the user will input their name.
+#this is the welcome screen where the user will input their name.
 
 print('Hello' + ' ' + Name)
-# introduces the user
+#introduces the user
 input('Press enter to continue')
 
 * Tells them the defintion of a prime number (Line 18 - 20 ):
 
 print('A  prime  number is a number that can only be divided by 1 or itself')
-# defintion of a prime number
+#defintion of a prime number
 
 * Asks them if they want to see a fun fact about prime numbers and then (Line 22 - 28 ):
 
@@ -36,7 +36,7 @@ input('Press enter to continue')
 * Asks the user if they want to see the prime numbers from 1-100. If they say yes then it would display the prime bumbers but if they say no the program will end (Line 30 - 66):
 
 if responce == 'Y':
-    # what this says is that if your answer to the above question is yes, then the prime number function will executed.
+    #what this says is that if your answer to the above question is yes, then the prime number function will executed.
  print('Here:')
  
  for num in range(2,100): # This is a range for the prime numbers within a for loop
@@ -45,14 +45,15 @@ if responce == 'Y':
            if (num % i) == 0:
                break # terminates the for loop
        else:
-           print(num)# outputs the prime numbers
+           print(num)
+           #outputs the prime numbers
 
 elif responce == 'N':
     # if your answer is no to the above question, then the program will be ended. 
     print('Good bye' + ' ' + Name)
     # farewell message for the user
     exit()
-    #this function will close the program
+    # this function will close the program
 
 elif responce != 'Y' or 'N':
   print('You did not select Y or N but I will still display the prime numbers')
