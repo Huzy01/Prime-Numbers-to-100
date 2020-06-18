@@ -1,4 +1,4 @@
-## By Huzaifah Hensrot
+## By Huzaifah Hensrot 18.06.2020
 
 
 # Prime-Number-Program
