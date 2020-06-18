@@ -19,56 +19,33 @@ This program is written in **Python 3** which aims to aim **display the prime nu
 
 * Tells them the defintion of a prime number (Line 18 - 20 ):
 
-`print('A  prime  number is a number that can only be divided by 1 or itself')
-#defintion of a prime number`
+`print('A  prime  number is a number that can only be divided by 1 or itself')`
+`#defintion of a prime number`
 
 * Asks them if they want to see a fun fact about prime numbers and then (Line 22 - 28 ):
 
-`print('Type Fact if you want to see a fun fact about prime numbers or press enter to continue')
-fact =input('>>')
-if fact=='Fact':
-    print('Did you know that 1 is not a prime number. This makes 2 the smallest prime number')
-else:
-    print('Okay we will move on')
-input('Press enter to continue')`
+`print('Type Fact if you want to see a fun fact about prime numbers or press enter to continue')`
+`fact =input('>>')`
+`if fact=='Fact':`
+    `print('Did you know that 1 is not a prime number. This makes 2 the smallest prime number')`
+`else:`
+    `print('Okay we will move on')`
+`input('Press enter to continue')`
 
 
 * Asks the user if they want to see the prime numbers from 1-100. If they say yes then it would display the prime bumbers but if they say no the program will end (Line 30 - 66):
 
-`if responce == 'Y':
-    #what this says is that if your answer to the above question is yes, then the prime number function will executed.
- print('Here:')
- 
- for num in range(2,100): # This is a range for the prime numbers within a for loop
-   if num > 1:# the number  must be greater than 1, as 2 is the smallest prime number
-       for i in range(2,num):
-           if (num % i) == 0:
-               break # terminates the for loop
-       else:
-           print(num)
-           #outputs the prime numbers
-
-elif responce == 'N':
-    # if your answer is no to the above question, then the program will be ended. 
-    print('Good bye' + ' ' + Name)
-    # farewell message for the user
-    exit()
-    # this function will close the program
-
-elif responce != 'Y' or 'N':
-  print('You did not select Y or N but I will still display the prime numbers')
-  #prime number function:
-  for num in range(2,100):
-      #This is a range for the prime numbers within a for loop
-   if num > 1:
-       # the number  must be greater than 1, as 2 is the smallest prime number
-       for i in range(2,num):
-           if (num % i) == 0:
-               break
-            #terminates the for loop
-       else:
-           print(num)
-           #outputs the prime numbers`
+  `for num in range(2,100):`
+      `#This is a range for the prime numbers within a for loop`
+   `if num > 1:`
+       `# the number  must be greater than 1, as 2 is the smallest prime number`
+       `for i in range(2,num):`
+           `if (num % i) == 0:`
+               `break`
+            `#terminates the for loop`
+       `else:`
+           `print(num)`
+           `#outputs the prime numbers`
 
 
 
