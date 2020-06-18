@@ -35,7 +35,7 @@ input('Press enter to continue')`
 
 * Asks the user if they want to see the prime numbers from 1-100. If they say yes then it would display the prime bumbers but if they say no the program will end (Line 30 - 66):
 
-`if responce == 'Y':
+` if responce == 'Y':
     #what this says is that if your answer to the above question is yes, then the prime number function will executed.
  print('Here:')
  
@@ -68,7 +68,7 @@ elif responce != 'Y' or 'N':
             #terminates the for loop
        else:
            print(num)
-           #outputs the prime numbers`
+           #outputs the prime numbers `
 
 
 
