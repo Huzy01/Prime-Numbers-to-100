@@ -17,7 +17,7 @@ input('Press enter to continue')
 
 print('A  prime  number is a number that can only be divided by 1 or itself')
 # defintion of a prime number
-input('Press enter to contine')
+input('Press enter to continue')
 
 print('Type Fact if you want to see a fun fact about prime numbers or press enter to continue')
 fact =input('>>')
